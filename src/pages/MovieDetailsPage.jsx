@@ -1,4 +1,4 @@
-// src/pages/MovieDetailsPage.jsx
+
 import { useEffect, useRef, useState } from 'react';
 import { useParams, useLocation, Link, Outlet } from 'react-router-dom';
 import axios from 'axios';

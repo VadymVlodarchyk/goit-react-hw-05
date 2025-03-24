@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/Navigation';
