@@ -28,6 +28,8 @@ const MoviesPage = () => {
         setMovies(data.results);
       } catch (err) {
         setError('Не вдалося завантажити фільми. Спробуйте пізніше.');
+        console.log(err);
+        
       } finally {
         setLoading(false);
       }
