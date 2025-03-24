@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import MovieList from '../components/MovieList/MovieList';
 import SearchForm from '../components/SearchForm/SearchForm';
-import { fetchSearchMovies } from '../../services/api'; // ✅
+import { fetchSearchMovies } from '../services/api'; 
 const MoviesPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('query') || '';
